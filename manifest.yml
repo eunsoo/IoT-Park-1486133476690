@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Park
+  host: IoT-Park
+  disk_quota: 1024M
+  services:
+  - IoT-Park-cloudantNoSQLDB
+  - IoT-Park-iotf-service
